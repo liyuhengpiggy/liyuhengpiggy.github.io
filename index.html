@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人导航主页</title>
+    <style>
+        /* 这里是控制网页长什么样的 CSS 代码 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10vh;
+        }
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile h1 { color: #333; margin-bottom: 5px; }
+        .profile p { color: #666; font-size: 14px; }
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* 按钮之间的间距 */
+            width: 100%;
+            max-width: 400px;
+        }
+        .link-btn {
+            background-color: #ffffff;
+            color: #333;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            border: 1px solid #eaeaea;
+        }
+        /* 鼠标悬停时的动画效果 */
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            background-color: #007bff;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile">
+        <h1>👋 欢迎来到我的主页</h1>
+        <p>这里收藏了我最常用的工具和干货链接</p>
+    </div>
+
+    <div class="link-container">
+        <a href="https://github.com" class="link-btn" target="_blank">💻 我的 GitHub</a>
+        <a href="https://www.google.com" class="link-btn" target="_blank">🔍 常用搜索引擎</a>
+        <a href="https://www.bilibili.com" class="link-btn" target="_blank">📺 哔哩哔哩</a>
+        </div>
+
+</body>
+</html>
